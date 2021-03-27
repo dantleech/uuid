@@ -19,7 +19,7 @@ use Ramsey\Uuid\Type\Hexadecimal;
 use Ramsey\Uuid\Type\Integer as IntegerIdentifier;
 use Ramsey\Uuid\Uuid;
 
-final class UuidGenerationBench
+final class UuidGenerationBench extends UuidBenchCase
 {
     /** @var Hexadecimal */
     private $node;

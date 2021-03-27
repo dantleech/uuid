@@ -20,7 +20,7 @@ use Ramsey\Uuid\UuidInterface;
 use function array_map;
 use function serialize;
 
-final class UuidSerializationBench
+final class UuidSerializationBench extends UuidBenchCase
 {
     private const TINY_UUID             = '00000000-0000-0000-0000-000000000001';
     private const HUGE_UUID             = 'ffffffff-ffff-ffff-ffff-ffffffffffff';

@@ -17,7 +17,7 @@ namespace Ramsey\Uuid\Benchmark;
 use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\UuidInterface;
 
-final class UuidFieldExtractionBench
+final class UuidFieldExtractionBench extends UuidBenchCase
 {
     /** @var UuidInterface */
     private $uuid;
