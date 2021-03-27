@@ -4,7 +4,8 @@
     "retry_threshold": 5,
     "reports": {
         "report": {
-            "extends": "aggregate"
+            "extends": "aggregate",
+            "break": ["benchmark"]
         }
     }
 }
